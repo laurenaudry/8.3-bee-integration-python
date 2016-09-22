@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/bg.jpg);
+}
+/* sooooooo many classes!! */
+.center {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.subscribe {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 700px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Hind', sans-serif;
+}
+
+
+.facebook {
+  background-color: rgb(117, 130, 182);
+  height: 30px;
+  width: 30px;
+  opacity: 0.5%;
+  margin-left: 50px;
+}
+
+.rss {
+  background-color: rgb(204,144,53);
+  height: 30px;
+  width: 30px;
+  opacity: 0.5%;
+  margin-left: 5px;
+}
+
+.twitter {
+  background-color: rgb(106, 141, 199);
+  height: 30px;
+  width: 30px;
+  opacity: 0.5%;
+  margin-left: 5px;
+}
+
+.youtube {
+  background-color: rgb(178, 56, 45);
+  height: 30px;
+  width: 30px;
+  opacity: 0.5%;
+  margin-left: 5px;
+}
+
+.nav-bar {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(180, 41, 46);
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  font-family: 'Hind', sans-serif;
+}
+
+.carousel__container {
+  margin: 10px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel__background {
+  background-image:url(../assets/top-image.png);
+  background-position: top left;
+  background-size: 120%;
+  border: 5px solid white;
+  height: 250px;
+  position: relative;
+}
+/* So I couldnt make them line up in the middle... */
+.carousel_buttons-circle {
+  display: inline-block;
+  background-color: rgb(227, 227, 227);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  box-shadow: 0px 3px 0px rgba(255, 255, 255, 0.5);
+}
+
+/* couldn't make it look the same as the picture for the texture on top of the pic */
+.grid_texture {
+  height: 901px;
+  width: 1673px;
+  opacity: 0.5;
+}
+
+.logo-img {
+  height: 90%;
+  width: 50%;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.grid__column {
+  display: inline-block;
+  width: 30%;
+  margin: 8px;
+  background: white;
+  vertical-align: top;
+}
+
+.article {
+    font-family: 'Hind', sans-serif;
+    padding: 10px;
+}
+
+.article_title {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.article_date {
+  color: gray;
+  font-size: 10;
+  font-weight: 200;
+}
+
+.article_preview {
+  text-align: left;
+  font-size: 15px;
+}
+/*not sure why this didn't align in center..*/
+.readMore {
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: arial black;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  margin: 6px;
+  position: relative;
+}
+
+.imageContainer:nth-child(3) {
+  float: right;
+}
+
+/* Need to position images correctly */
+.tommy {
+  background-image: url(../assets/sk8er-2.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 464px;
+  width: 300px;
+  border: 5px solid white;
+  overflow: hidden;
+}
+
+.lance {
+  background-image: url(../assets/sk8er-4.png);
+  background-position: right;
+  height: 221px;
+  width: 323px;
+  border: 5px solid white;
+  overflow: hidden;
+}
+
+.rodney {
+  background-image: url(../assets/sk8er-3.png);
+  background-position: center left;
+  height: 223px;
+  width:322px;
+  border: 5px solid white;
+  overflow: hidden;
+}
+
+.steve {
+ background-image: url(../assets/sk8er-1.png);
+ background-position: left;
+ height: 230px;
+ width: 664px;
+ border: 5px solid white;
+ overflow: hidden;
+}
+
+.skateboards {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.skateboardPadding {
+  padding: 15px;
+}
+
+.footer_box {
+  background: white;
+  height: 300px;
+  overflow: auto;
+  padding: 20px;
+  font-size: 0;
+}
+/*working on footer*/
+.contact_section {
+  display: inline-block;
+  width: 50%;
+  font-family: helvetica;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.submit {
+  display: inline-block;
+  width: 50%;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+.name {
+  text-transform: uppercase;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.email {
+  text-transform: uppercase;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.msg {
+  text-transform: uppercase;
+  padding: 5px;
+  height: 100px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.button {
+    background-color: rgb(180, 41, 46);
+    color: rgb(180, 41, 46);
+    border: none;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    width: 50%;
+    float: right;
+    height: 30px;
+  }
